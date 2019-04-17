@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1718497199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefinitions.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify Application Opened",
+        "description": "",
+        "id": "example-for-feature;verify-application-opened",
+        "after": [
+          {
+            "result": {
+              "duration": 65205,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefinitions.embedScreenshot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14343306038,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to given url \"https://www.seleniumhq.org/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.seleniumhq.org/",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinitions.user_navigate_to_given_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2019412903,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on download link",
+            "match": {
+              "location": "StepDefinitions.user_click_on_download_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5504322532,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on documentation link",
+            "match": {
+              "location": "StepDefinitions.user_click_on_documentation_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@example1"
+          }
+        ]
+      }
+    ],
+    "name": "Example for Feature",
+    "description": "",
+    "id": "example-for-feature",
+    "keyword": "Feature",
+    "uri": "example.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@example"
+      }
+    ]
+  }
+]
